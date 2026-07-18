@@ -1,0 +1,12 @@
+Here
+I have written the starbucks dockerfile and commited to git
+
+
+
+docker build -t starbucks .
+docker run -d -p 8000:3000 --name "starbucks" starbucks
+docker ps -a
+
+Runtime url: http://localhost:8000/dashboard
+
+
