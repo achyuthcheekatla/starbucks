@@ -1,6 +1,6 @@
 FROM node:alphine
 WORKDIR /app
-COPY package*.json ./
+COPY package.json package-lock.json /app/
 RUN npm install
 COPY . .
 EXPOSE 3000
